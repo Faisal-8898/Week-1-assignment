@@ -8,13 +8,7 @@
 */
 
 function isAnagram(str1, str2) {
-  const aa= str1.replace(/\s/g, '').toLowerCase();
-  const bb= str2.replace(/\s/g, '').toLowerCase();
-  const a = aa.split('').sort().join('');
-  const b = bb.split('').sort().join('');
-  return a == b;
+
 }
 
 module.exports = isAnagram;
-
-console.log(isAnagram("hello", "olleh"));
